@@ -64,7 +64,8 @@ echo -e $green" 20) Dirbuster "
 echo -e $green" 21) admin finder "
 echo -e $green" 22) lokomedia exploiter "
 echo -e $green" 23) elfinder exploiter "
-echo -e $green" 24) exit "
+echo -e $green" 24) scanner tools "
+echo -e $green" 25) exit "
 echo -e $white""
 read -p "[mrcakil@Tools]> " act;
 
@@ -401,7 +402,23 @@ cd ~/
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 24 ] || [ $act = 24  ]
+if [ $act = 24 ] || [ $act = 24 ]
+then
+clear
+echo -e $green" installing scanner tools "
+sleep 1
+apt update && apt upgrade
+apt install python2
+mkdir scanner
+cd ~/scanner
+wget https://pastebin.com/raw/m79t1Zia -O scanner.py
+wget https://pastebin.com/raw/mgKxMWXh -O admins.1337
+wget https://pastebin.com/raw/EafKj98D -O files.1337
+cd ~/
+echo -e $red" Done Install Cuk "
+fi
+
+if [ $act = 25 ] || [ $act = 25  ]
 then
 echo " pesan terakhir"
 sleep 1
@@ -417,4 +434,3 @@ echo " Bye ea :* "
 sleep 1
 exit
 fi
-
