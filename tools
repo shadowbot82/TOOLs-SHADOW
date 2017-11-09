@@ -62,7 +62,8 @@ echo -e $green" 18) Weevely "
 echo -e $green" 19) SQLMap "
 echo -e $green" 20) Dirbuster "
 echo -e $green" 21) admin finder "
-echo -e $red" 22) Exit "
+echo -e $green" 22) lokomedia exploiter "
+echo -e $red" 23) Exit "
 echo -e $white""
 read -p "[mrcakil@Tools]> " act;
 
@@ -371,7 +372,21 @@ cd ~/
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 22 ] || [ $act = 22  ]
+if [ $act = 22 ] || [ $act = 22 ]
+then
+clear
+echo -e $green" installing lokomedia exploiter "
+sleep 1
+apt update && apt upgrade
+apt-get install php
+mkdir lokomed
+cd ~/lokomed
+wget https://pastebin.com/raw/sPpJRjCZ -O lokomedia.php
+cd ~/
+echo -e $red" Done Install Cuk "
+fi
+
+if [ $act = 23 ] || [ $act = 23  ]
 then
 echo " pesan terakhir"
 sleep 1
