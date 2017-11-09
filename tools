@@ -34,11 +34,11 @@ exit
 
 # Isi ea:*
 echo -e $white"         ***********************************************"
-echo -e $white"         # $cyan toolkit for hackers                   #"
-echo -e $white"         # $cyan happy fun guys                        #"
-echo -e $white"         # $cyan contact:dendisaimam5@gmail.com        #"
-echo -e $white"         # $red greetz :99syndicate - hacker patah hati#"
-echo -e $white"         # $red copyright : ./Mr Cakil                 #"
+echo -e $white"         # $cyan toolkit for hackers                    #"
+echo -e $white"         # $cyan happy fun guys                         #"
+echo -e $white"         # $cyan contact:dendisaimam5@gmail.com         #"
+echo -e $white"         # $red greetz :99syndicate - hacker patah hati #"
+echo -e $white"         # $red copyright : ./Mr Cakil                  #"
 echo -e $white"         ***********************************************"
 echo ""
 echo -e $green" 01) Red Hawk"
