@@ -24,15 +24,15 @@ clear
 echo -e $red"[#]> (Ctrl + C ) Detected, Trying To Exit ... "
 sleep 1
 echo ""
-echo -e $yellow"[#]> Thank You For Using My Tools ... "
+echo -e $green"[#]> Terima kasih sudah make tools saya ... "
 sleep 1
 echo ""
-echo -e $white"[#]> 4WSec Wuzz Here ... "
+echo -e $white"[#]> Mr.Cakil Wuzz Here ... "
 read enter
 exit
 }
 
-# Isi oc :*
+# Isi ea:*
 echo -e $white"         ***********************************************"
 echo -e $white"         # $cyan toolkit for hackers                   #"
 echo -e $white"         # $cyan happy fun guys                        #"
@@ -63,7 +63,8 @@ echo -e $green" 19) SQLMap "
 echo -e $green" 20) Dirbuster "
 echo -e $green" 21) admin finder "
 echo -e $green" 22) lokomedia exploiter "
-echo -e $red" 23) Exit "
+echo -e $green" 23) elfinder exploiter "
+echo -e $green" 24) exit "
 echo -e $white""
 read -p "[mrcakil@Tools]> " act;
 
@@ -386,7 +387,21 @@ cd ~/
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 23 ] || [ $act = 23  ]
+if [ $act = 23 ] || [ $act = 23 ]
+then
+clear
+echo -e $green" installing elfinder exploiter "
+sleep 1
+apt update && apt upgrade
+apt-get install php
+mkdir elfinder
+cd ~/elfinder
+wget https://pastebin.com/raw/S7Y2V19h -O elfinder.php
+cd ~/
+echo -e $red" Done Install Cuk "
+fi
+
+if [ $act = 24 ] || [ $act = 24  ]
 then
 echo " pesan terakhir"
 sleep 1
@@ -402,3 +417,4 @@ echo " Bye ea :* "
 sleep 1
 exit
 fi
+
