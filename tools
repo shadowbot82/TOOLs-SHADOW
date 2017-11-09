@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-# Auto Install Tools <3
+# Auto Install Tools v.1
 # Coded By Mr Cakil
 # Bersihkan Layar
 clear
@@ -65,7 +65,10 @@ echo -e $green" 21) admin finder "
 echo -e $green" 22) lokomedia exploiter "
 echo -e $green" 23) elfinder exploiter "
 echo -e $green" 24) scanner tools "
-echo -e $green" 25) exit "
+echo -e $green" 25) bing dorker "
+echo -e $green" 26) magento add admin exploiter "
+echo -e $green" 27) katoolin "
+echo -e $green" 28) exit "
 echo -e $white""
 read -p "[mrcakil@Tools]> " act;
 
@@ -418,7 +421,58 @@ cd ~/
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 25 ] || [ $act = 25  ]
+if [ $act = 25 ] || [ $act = 25 ]
+then
+clear
+echo -e $green" installing bing dorker "
+sleep 1
+apt update && apt upgrade
+apt-get install php
+mkdir bing
+cd ~/bing
+wget https://pastebin.com/raw/tjQY6Tsg -O dorker.php
+cd ~/
+echo -e $red" Done Install Cuk "
+fi
+
+if [ $act = 26 ] || [ $act = 26 ]
+then
+clear
+echo -e $green" installing magento add admin exploiter "
+sleep 1
+apt update && apt upgrade
+apt-get install php
+mkdir magento
+cd ~/magento
+wget https://pastebin.com/raw/PXkG73pG -O magento.php
+cd ~/
+echo -e $red" Done Install Cuk "
+fi
+
+if [ $act = 27 ] || [ $act = 27 ]
+then
+clear
+echo -e $green" installing katoolin "
+sleep 1
+apt update && apt upgrade
+pkg install git
+pkg install python2
+pkg install gnupg
+pkg install nano
+git clone https://github.com/LionSec/katoolin.git
+cd ~/katoolin
+echo -e $green"note :  nano katoolin.py 
+ganti semua kode /etc/apt/source.list dengan /data/data/com.termux/files/usr/etc/apt/sources.list 
+kemudian simpan dengan menekan ctrl O enter kemudian ctrl X . 
+jika tidak ada menu ctrl pada keyboard munculkan dengan menahan tombol volume atas kemudian ketik Q pada keyboard maka menu ctrl akan muncul di atas keyboard
+python2 katoolin.py
+Sisanya bisa mengikuti cara install di atas, Jika menemui masalah gpg error saat melakukan add repository install gnupg-curl dengan perintah pkg install gnupg-curl
+Untuk yg menggunakan termux dengan cpu arm64 (aarch64) tidak bisa menambahkan repositori kali linux karna kali linux tidak support aarch64, 
+jadi sebelum menginstall tools kali di termux wajib dengan android dengan arm32 jika arm64 gunakan gnuroot"
+echo -e $red" Done Install Cuk "
+fi
+
+if [ $act = 28 ] || [ $act = 28  ]
 then
 echo " pesan terakhir"
 sleep 1
