@@ -1,10 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 # Auto Install Tools <3
-# Coded By 4WSec
-# 4WSec@cyberservices.com
-# 666
-
+# Coded By Mr Cakil
 # Bersihkan Layar
 clear
 
@@ -370,7 +367,6 @@ apt-get install php
 mkdir adfin
 cd ~/webdav
 wget https://pastebin.com/raw/32txZ6Qr -O adfin.php
-chmod 777 adfin.php
 cd ~/
 echo -e $red" Done Install Cuk "
 fi
