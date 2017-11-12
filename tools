@@ -68,7 +68,8 @@ echo -e $green" 24) scanner tools "
 echo -e $green" 25) bing dorker "
 echo -e $green" 26) magento add admin exploiter "
 echo -e $green" 27) katoolin "
-echo -e $green" 28) exit "
+echo -e $green" 28) arch linux "
+echo -e $green" 29) exit "
 echo -e $white""
 read -p "[mrcakil@Tools]> " act;
 
@@ -265,6 +266,8 @@ pip2 install mechanize
 mkdir fbbrute
 cd ~/fbbrute
 wget https://pastebin.com/raw/aqMBt2xA -O fbbrute.py
+wget http://override.waper.co/files/password.apk
+mv password.apk password.txt
 chmod 777 fbbrute.py
 cd ~/
 echo -e $red" Done Install Cuk "
@@ -389,6 +392,7 @@ cd ~/lokomed
 wget https://pastebin.com/raw/sPpJRjCZ -O lokomedia.php
 cd ~/
 echo -e $red" Done Install Cuk "
+echo -e $red" usage : php lokomedia.php a.txt "
 fi
 
 if [ $act = 23 ] || [ $act = 23 ]
@@ -419,6 +423,7 @@ wget https://pastebin.com/raw/mgKxMWXh -O admins.1337
 wget https://pastebin.com/raw/EafKj98D -O files.1337
 cd ~/
 echo -e $red" Done Install Cuk "
+echo -e $red" usage : python2 scanner.py site.com -m files "
 fi
 
 if [ $act = 25 ] || [ $act = 25 ]
@@ -472,7 +477,22 @@ jadi sebelum menginstall tools kali di termux wajib dengan android dengan arm32 
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 28 ] || [ $act = 28  ]
+if [ $act = 28 ] || [ $act = 28 ]
+then
+clear
+echo -e $green" installing magento add admin exploiter "
+sleep 1
+apt update && apt upgrade
+apt-get install git
+cd ~/
+git clone https://github.com/sdrausty/termux-archlinux.git
+cd termux-archlinux 
+chmod +x setupTermuxArch.sh
+./setupTermuxArch.sh
+echo -e $red" Done Install Cuk "
+fi
+
+if [ $act = 29 ] || [ $act = 29  ]
 then
 echo " pesan terakhir"
 sleep 1
