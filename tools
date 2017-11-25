@@ -1,11 +1,11 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 # Auto Install Tools v.1
-# Coded By Mr Cakil
+# Coded By 4wsec
+# recoded By Mr.Cakil
 # Bersihkan Layar
 clear
 
-#This colour
 blue='\e[0;34'
 cyan='\e[0;36m'
 green='\e[0;34m'
@@ -32,13 +32,13 @@ read enter
 exit
 }
 
-# Isi ea:*
 echo -e $white"         ***********************************************"
 echo -e $white"         # $cyan toolkit for hackers                    #"
 echo -e $white"         # $cyan happy fun guys                         #"
 echo -e $white"         # $cyan contact:dendisaimam5@gmail.com         #"
 echo -e $white"         # $red greetz :99syndicate - hacker patah hati #"
 echo -e $white"         # $red copyright : ./Mr Cakil                  #"
+echo -e $white"         # $red thanks to : 4wsec - Mr.Tenwap           #"
 echo -e $white"         ***********************************************"
 echo ""
 echo -e $green" 01) Red Hawk"
@@ -69,7 +69,8 @@ echo -e $green" 25) bing dorker "
 echo -e $green" 26) magento add admin exploiter "
 echo -e $green" 27) katoolin "
 echo -e $green" 28) arch linux "
-echo -e $green" 29) exit "
+echo -e $green" 29) linux fedora"
+echo -e $green" 30) exit"
 echo -e $white""
 read -p "[mrcakil@Tools]> " act;
 
@@ -480,7 +481,7 @@ fi
 if [ $act = 28 ] || [ $act = 28 ]
 then
 clear
-echo -e $green" installing magento add admin exploiter "
+echo -e $green" installing arch linux "
 sleep 1
 apt update && apt upgrade
 apt-get install git
@@ -492,7 +493,21 @@ chmod +x setupTermuxArch.sh
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 29 ] || [ $act = 29  ]
+if [ $act = 29 ] || [ $act = 29 ]
+then
+clear
+echo -e $green" installing fedora "
+sleep 1
+apt update && apt upgrade
+apt-get install git
+apt install wget
+git clone https://github.com/nmilosev/termux-fedora.git
+cd termux-fedora
+chmod +x termux-fedora.sh
+echo -e $red" Done Install Cuk "
+fi
+
+if [ $act = 30 ] || [ $act = 30  ]
 then
 echo " pesan terakhir"
 sleep 1
