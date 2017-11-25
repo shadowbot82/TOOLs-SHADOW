@@ -76,7 +76,7 @@ echo -e $green" 32) exit"
 echo -e $white""
 read -p "[mrcakil@Tools]> " act;
 
-if [ $act = 1 ] || [ $act = 01 ]
+if [ $act = 01 ] || [ $act = 01 ]
 then
 clear
 echo -e $green" Installing Red Hawk "
@@ -88,7 +88,7 @@ git clone https://github.com/Tuhinshubhra/RED_HAWK
 echo -e $green" Done Install Cuk "
 fi
 
-if [ $act = 2 ] || [ $act = 02 ]
+if [ $act = 02 ] || [ $act = 02 ]
 then
 clear
 echo -e $green" Installing D-Tect "
@@ -100,7 +100,7 @@ git clone https://github.com/shawarkhanethicalhacker/D-TECT
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 3 ] || [ $act = 03 ]
+if [ $act = 03 ] || [ $act = 03 ]
 then
 clear
 echo -e $green" Installing Hunner "
@@ -112,7 +112,7 @@ git clone https://github.com/b3-v3r/Hunner
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 4 ] || [ $act = 04 ]
+if [ $act = 04 ] || [ $act = 04 ]
 then
 clear
 echo -e $green" Installing Wpscan "
@@ -131,7 +131,7 @@ cd ~/
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 5 ] || [ $act = 05 ]
+if [ $act = 05 ] || [ $act = 05 ]
 then
 clear
 echo -e $green" Installing Webdav "
@@ -149,7 +149,7 @@ cd ~/
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 06 ] || [ $act = 6 ]
+if [ $act = 06 ] || [ $act = 06 ]
 then
 clear
 echo -e $green" Installing Metasploit "
@@ -163,7 +163,7 @@ sh install.sh
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 07 ] || [ $act = 7 ]
+if [ $act = 07 ] || [ $act = 07 ]
 then
 clear
 echo -e $green" Installing Kali Nethunter "
@@ -177,7 +177,7 @@ sh kalinethunter
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 08 ] || [ $act = 8 ]
+if [ $act = 08 ] || [ $act = 08 ]
 then
 clear
 echo -e $green" Installing Ubuntu "
@@ -196,7 +196,7 @@ echo "nameserver 8.8.8.8" > /data/data/com.termux/files/home/termux-ubuntu/ubunt
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 09 ] || [ $act = 9 ]
+if [ $act = 09 ] || [ $act = 09 ]
 then
 clear
 echo -e $green" Installing Youtube DL "
