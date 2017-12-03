@@ -563,6 +563,7 @@ apt-get install perl
 git clone https://github.com/rezasp/joomscan.git
 cd joomscan
 echo -e $red" done install cuk "
+fi
 
 if [ $act = 34 ] || [ $act = 34 ]
 then
@@ -573,6 +574,7 @@ apt-get update && apt-get upgrade
 apt-get install wget
 wget http://www.morningstarsecurity.com/downloads/bing-ip2hosts-0.4.tar.gz && tar -xzvf bing-ip2hosts-0.4.tar.gz && cp bing-ip2hosts-0.4/bing-ip2hosts /usr/local/bin/t
 echo -e $red" done install cuk "
+fi
 
 if [ $act = 35 ] || [ $act = 35 ]
 then
@@ -583,6 +585,7 @@ apt-get update && apt-get upgrade
 apt-get install git
 git clone git://git.kali.org/packages/bluemaho.git
 echo -e $red" done install cuk "
+fi
 
 if [ $act = 36 ] || [ $act = 36 ]
 then
@@ -593,6 +596,7 @@ apt-get update && apt-get upgrade
 apt-get install git
 git clone git://git.kali.org/packages/bluepot.git
 echo -e $red" done install cuk "
+fi
 
 if [ $act = 37 ] || [ $act = 37 ]
 then
@@ -608,6 +612,7 @@ git clone https://github.com/verluchie/bot-exploiter.git
 cd bot-exploiter
 unzip xploit.zip
 echo -e $red" done install cuk "
+fi
 
 if [ $act = 38 ] || [ $act = 38 ]
 then
@@ -620,6 +625,7 @@ apt-get install php
 git clone https://github.com/whackashoe/php-spam-mail-honeypot.git
 cd php-spam-mail-honeypot
 echo -e $red" done install cuk "
+fi
 
 if [ $act = 39 ] || [ $act = 39 ]
 then
