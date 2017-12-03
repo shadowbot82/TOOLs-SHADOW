@@ -79,8 +79,7 @@ echo -e $green" 35) BlueMaho"
 echo -e $green" 36) Bluepot"
 echo -e $green" 37) bot auto deface for kali-linux"
 echo -e $green" 38) honeypot"
-echo -e $green" 39) mailer sender cli"
-echo -e $green" 40) exit"
+echo -e $green" 39) exit"
 echo -e $white""
 read -p "[mrcakil@Tools]> " act;
 
@@ -623,23 +622,6 @@ cd php-spam-mail-honeypot
 echo -e $red" done install cuk "
 
 if [ $act = 39 ] || [ $act = 39 ]
-then
-clear
-echo -e $green" installing mailer-sender "
-sleep 1
-apt-get update && apt-get upgrade
-apt-get install php5-cli
-curl -sS https://getcomposer.org/installer | php
-chmod +x composer.phar
-sudo mv composer.phar /usr/bin/composer
-git clone https://github.com/pedro-stanaka/mailer-cli.git
-echo -e $green" note !! "
-echo -e $green" usage php sendmail.php notification:mailer <email> <subject> <body>; "
-echo -e $green" or "
-echo -e $green" php sendmail.php --help "
-echo -e $red" done install cuk "
-
-if [ $act = 40 ] || [ $act = 40  ]
 then
 echo " pesan terakhir "
 sleep 1
