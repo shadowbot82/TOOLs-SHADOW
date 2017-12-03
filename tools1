@@ -543,7 +543,7 @@ chmod 700 /data/data/com.termux/files/usr/bin/sudo
 echo -e $red" Done Install Cuk "
 fi
 
-if [ $act = 32 ] || [ $act = 32]
+if [ $act = 32 ] || [ $act = 32 ]
 then
 clear
 echo -e $green" installing aircrack-ng "
