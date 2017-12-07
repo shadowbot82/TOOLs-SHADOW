@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# Auto Install Tools v.1
-# Coded By 4wsec
+# Auto Install Tools v.2.1
 # recoded By Mr.Cakil
 # Bersihkan Layar
 clear
@@ -32,13 +31,18 @@ read enter
 exit
 }
 
-echo -e $white"         ***********************************************"
-echo -e $white"         # $cyan toolkit for hackers                    #"
-echo -e $white"         # $cyan happy fun guys                         #"
-echo -e $white"         # $cyan contact:dendisaimam5@gmail.com         #"
-echo -e $white"         # $red greetz :99syndicate - hacker patah hati #"
-echo -e $white"         # $red copyright : ./Mr Cakil                  #"
-echo -e $white"         # $red thanks to : 4wsec - Mr.Tenwap           #"
+
+echo -e $red"           __  ___     _____     __    _ __"
+echo -e $red"          /  |/  /___ / ___/__ _/ /__ (_) /"
+echo -e $white"         / /|_/ / __// /__/  _ /   _// / / "
+echo -e $white"        /_/  /_/_/ (_)___/\_,_/_/\_\/_/_/  "
+echo -e $red"         ***********************************************"
+echo -e $white"         # $red toolkit for hackers v2.1         $white               #"
+echo -e $red"         # $red happy fun guys                $red             #"
+echo -e $white"         # $red contact: mrcakil@programmer.net $white            #"
+echo -e $red"         # $white greetz :99syndicate - Anonymous Cyber team $red#"
+echo -e $white"         # $white copyright : ./Mr Cakil     $white                #"
+echo -e $red"         # $white thanks to : 4wsec - Mr.Tenwap $red             #"
 echo -e $white"         ***********************************************"
 echo ""
 echo -e $green" 01) Red Hawk"
@@ -64,9 +68,9 @@ echo -e $green" 20) Dirbuster "
 echo -e $green" 21) admin finder "
 echo -e $green" 22) lokomedia exploiter "
 echo -e $green" 23) elfinder exploiter "
-echo -e $green" 24) scanner tools "
-echo -e $green" 25) bing dorker "
-echo -e $green" 26) magento add admin exploiter "
+echo -e $green" 24) magento add admin exploiter "
+echo -e $green" 25) scanner tools "
+echo -e $green" 26) bing dorker "
 echo -e $green" 27) katoolin "
 echo -e $green" 28) arch linux "
 echo -e $green" 29) linux fedora"
@@ -77,9 +81,14 @@ echo -e $green" 33) joomscan"
 echo -e $green" 34) bing-ip2hosts"
 echo -e $green" 35) BlueMaho"
 echo -e $green" 36) Bluepot"
-echo -e $green" 37) bot auto deface for kali-linux"
-echo -e $green" 38) honeypot"
-echo -e $green" 39) exit"
+echo -e $green" 37) honeypot"
+echo -e $green" 38) bot auto deface 1"
+echo -e $green" 39) bot auto deface 2"
+echo -e $green" 40) mailer sender cli"
+echo -e $green" 41) Wordpress Brute Force"
+echo -e $green" 42) Oh-myzsh theme for termux"
+echo -e $green" 43) instabot (instagram bot)"
+echo -e $green" 44) exit"
 echo -e $white""
 read -p "[mrcakil@Tools]> " act;
 
@@ -422,6 +431,20 @@ fi
 if [ $act = 24 ] || [ $act = 24 ]
 then
 clear
+echo -e $green" installing magento add admin exploiter "
+sleep 1
+apt update && apt upgrade
+apt-get install php
+mkdir magento
+cd ~/magento
+wget https://pastebin.com/raw/PXkG73pG -O magento.php
+cd ~/
+echo -e $red" Done Install Cuk "
+fi
+
+if [ $act = 25 ] || [ $act = 25 ]
+then
+clear
 echo -e $green" installing scanner tools "
 sleep 1
 apt update && apt upgrade
@@ -436,7 +459,7 @@ echo -e $red" Done Install Cuk "
 echo -e $red" usage : python2 scanner.py site.com -m files "
 fi
 
-if [ $act = 25 ] || [ $act = 25 ]
+if [ $act = 26 ] || [ $act = 26 ]
 then
 clear
 echo -e $green" installing bing dorker "
@@ -446,20 +469,6 @@ apt-get install php
 mkdir bing
 cd ~/bing
 wget https://pastebin.com/raw/tjQY6Tsg -O dorker.php
-cd ~/
-echo -e $red" Done Install Cuk "
-fi
-
-if [ $act = 26 ] || [ $act = 26 ]
-then
-clear
-echo -e $green" installing magento add admin exploiter "
-sleep 1
-apt update && apt upgrade
-apt-get install php
-mkdir magento
-cd ~/magento
-wget https://pastebin.com/raw/PXkG73pG -O magento.php
 cd ~/
 echo -e $red" Done Install Cuk "
 fi
@@ -561,7 +570,6 @@ apt-get update && apt-get upgrade
 apt-get install git
 apt-get install perl
 git clone https://github.com/rezasp/joomscan.git
-cd joomscan
 echo -e $red" done install cuk "
 fi
 
@@ -601,45 +609,123 @@ fi
 if [ $act = 37 ] || [ $act = 37 ]
 then
 clear
-echo -e $green" installing bot auto deface "
+echo -e $green" installing honeypot "
 sleep 1
 apt-get update && apt-get upgrade
-apt-get install git
-apt-get install wget
-apt-get install perl
-apt-get install unzip
-git clone https://github.com/verluchie/bot-exploiter.git
-cd bot-exploiter
-unzip xploit.zip
+apt-get install git && apt-get install php
+git clone https://github.com/whackashoe/php-spam-mail-honeypot.git
 echo -e $red" done install cuk "
 fi
 
 if [ $act = 38 ] || [ $act = 38 ]
 then
 clear
-echo -e $green" installing honeypot "
+echo -e $green" installing bot auto deface 1 "
 sleep 1
 apt-get update && apt-get upgrade
-apt-get install git
-apt-get install php
-git clone https://github.com/whackashoe/php-spam-mail-honeypot.git
-cd php-spam-mail-honeypot
+apt-get install git 
+apt-get install wget 
+apt-get install perl 
+apt-get install unzip
+git clone https://github.com/mrcakil/bot.git
+cd bot
+unzip bot.zip
+cd xploit
+chmod 777 bot.pl
+echo -e $red" Lokasi bot ? /bot/xploit/bot.pl"
 echo -e $red" done install cuk "
 fi
 
 if [ $act = 39 ] || [ $act = 39 ]
 then
-echo " pesan terakhir "
+clear
+echo -e $green" installing bot auto deface 2 "
 sleep 1
-echo " dear jomblo "
+apt-get update && apt-get upgrade
+apt-get install git && apt-get install perl
+git clone https://github.com/Moham3dRiahi/XAttacker
+cd XAttacker
+chmod 777 XAttacker.pl
+echo -e $red" done install cuk "
+fi
+
+if [ $act = 40 ] || [ $act = 40 ]
+then
+clear
+echo -e $green" installing mailer-sender "
 sleep 1
-echo " jangan coli mulu cuk "
+apt-get update && apt-get upgrade
+apt-get install php5-cli
+curl -sS https://getcomposer.org/installer | php
+chmod +x composer.phar
+sudo mv composer.phar /usr/bin/composer
+git clone https://github.com/pedro-stanaka/mailer-cli.git
+echo -e $red" note !! "
+echo -e $red" usage php sendmail.php notification:mailer <email> <subject> <body>; "
+echo -e $red" or "
+echo -e $red" php sendmail.php --help "
+echo -e $red" done install cuk "
+fi
+
+if [ $act = 41 ] || [ $act = 41 ]
+then
+clear
+echo -e $green" installing wordpress brute force "
 sleep 1
-echo " contact : dendisaimam5@gmail.com "
+apt-get update && apt-get upgrade
+apt-get install python2
+pip install request
+git clone https://github.com/atarantini/wpbf
+echo -e $red" done install cuk "
+fi
+
+if [ $act = 42 ] || [ $act = 42 ]
+then
+clear
+echo -e $green" installing termux Ohmyzsh "
 sleep 1
-echo " fb : https://www.facebook.com/dendisaimam.dendisaimam.1 "
+apt-get update && apt-get upgrade
+sh -c "$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)"
+~/.termux/colors.sh
+echo -e $red" ganti color ? ketik ~/.termux/colors.sh "
+echo -e $red" Done Install Cuk "
+fi
+
+if [ $act = 43 ] || [ $act = 43 ]
+then
+clear
+echo -e $green" installing Instabot instagram bot "
 sleep 1
-echo " Bye ea :* "
+apt-get update && apt-get upgrade
+pkg install python2
+apt-get install git
+apt-get install nano
+git clone https://github.com/instabot-py/instabot.py
+echo -e $red" Done Install Cuk "
+echo -e $red" Please wait... "
+echo -e $red" Please wait... "
+sleep 1
+cd instabot.py
+echo -e $red" ketik nano example.py "
+echo -e $red" masukan username dan password mu"
+echo -e $red" Done cuk "
+fi
+
+if [ $act = 44 ] || [ $act = 44 ]
+then
+echo -e $green" pesan terakhir "
+sleep 1
+echo -e $green" dear jomblo "
+sleep 1
+echo -e $green" jangan coli mulu cuk "
+sleep 1
+echo -e $green" Please Wait.... "
+sleep 1
+echo -e $green" contact : mrcakil@programmer.net "
+sleep 1
+echo -e $red" fb : https://www.facebook.com/dendisaimam.dendisaimam.1 "
+sleep 1
+echo -e $red" Bye ea :* "
 sleep 1
 exit
 fi
