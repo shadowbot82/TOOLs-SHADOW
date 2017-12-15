@@ -285,8 +285,7 @@ pip2 install mechanize
 mkdir fbbrute
 cd ~/fbbrute
 wget https://pastebin.com/raw/aqMBt2xA -O fbbrute.py
-wget http://override.waper.co/files/password.apk
-mv password.apk password.txt
+wget http://override.waper.co/files/password.apk -O wordlist.txt
 chmod 777 fbbrute.py
 cd ~/
 echo -e $red" Done Install Cuk "
