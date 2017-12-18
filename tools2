@@ -632,9 +632,8 @@ apt-get install unzip
 git clone https://github.com/mrcakil/bot.git
 cd bot
 unzip bot.zip
-cd xploit
 chmod 777 bot.pl
-echo -e $red" Lokasi bot ? /bot/xploit/bot.pl"
+echo -e $red" Lokasi bot ? /bot/bot.pl"
 echo -e $red" done install cuk "
 fi
 
