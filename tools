@@ -87,7 +87,10 @@ echo -e $green" 40) mailer sender cli"
 echo -e $green" 41) Wordpress Brute Force"
 echo -e $green" 42) Oh-myzsh theme for termux"
 echo -e $green" 43) instabot (instagram bot)"
-echo -e $green" 44) exit"
+echo -e $green" 44) fsociety"
+echo -e $green" 45) CMS Scanner"
+echo -e $green" 46) Information Gathering"
+echo -e $green" 47) exit"
 echo -e $white""
 read -p "[mrcakil@Tools]> " act;
 
@@ -710,7 +713,55 @@ echo -e $red" masukan username dan password mu"
 echo -e $red" Done cuk "
 fi
 
+
 if [ $act = 44 ] || [ $act = 44 ]
+then
+clear
+echo -e $green" installing Instabot fsociety "
+sleep 1
+apt-get update && apt-get upgrade
+pkg install python2
+apt-get install git
+git clone https://github.com/Manisso/fsociety
+echo -e $red" Done Install Cuk "
+echo -e $red" Please wait... "
+echo -e $red" Please wait... "
+sleep 1
+cd fsociety
+echo -e $red" python2 fsociety.py "
+fi
+
+
+if [ $act = 45 ] || [ $act = 45 ]
+then
+clear
+echo -e $green" installing Instabot CMS Scanner "
+sleep 1
+apt-get update && apt-get upgrade
+pkg install python2
+apt-get install git
+git clone https://github.com/Dionach/CMSmap.git
+sleep 1
+cd CMSmap
+echo -e $red" Usage: cmsmap.py -t <URL> "
+fi
+
+if [ $act = 46 ] || [ $act = 46 ]
+then
+clear
+echo -e $green" installing Instabot INFORMATION Gathering "
+sleep 1
+apt-get update && apt-get upgrade
+pkg install python2
+apt-get install git
+git clone https://github.com/m4ll0k/Infoga.git infoga
+sleep 1
+cd infoga
+pip install -r req
+echo -e $red" Usage: python2 infoga.py "
+fi
+
+if [ $act = 47 ] || [ $act = 47 ]
 then
 echo -e $green" pesan terakhir "
 sleep 1
