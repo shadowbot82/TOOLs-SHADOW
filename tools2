@@ -91,7 +91,10 @@ echo -e $green" 43) instabot (instagram bot)"
 echo -e $green" 44) fsociety"
 echo -e $green" 45) Cms Scanner"
 echo -e $green" 46) Information Gathering"
-echo -e $green" 47) exit"
+echo -e $green" 47) com_fabrik exploiter"
+echo -e $green" 48) com foxcontact exploiter"
+echo -e $green" 49) gmail brute force"
+echo -e $green" 50) exit"
 echo -e $white""
 read -p "[mrcakil@Tools]> " act;
 
@@ -114,7 +117,7 @@ echo -e $green" Installing D-Tect "
 sleep 1
 apt-get update && apt-get upgrade
 apt-get install git
-apt-get install python2
+apt-get install python
 git clone https://github.com/shawarkhanethicalhacker/D-TECT
 echo -e $red" Done Install Cuk "
 fi
@@ -156,7 +159,8 @@ clear
 echo -e $green" Installing Webdav "
 sleep 1
 apt update && apt upgrade
-apt install python2
+apt install python
+apt-get install python-pip
 pip2 install urllib3 chardet certifi idna requests
 apt install openssl curl
 pkg install libcurl
@@ -236,7 +240,7 @@ echo -e $green" Installing viSQL "
 sleep 1
 apt update && apt upgrade
 pkg install git
-pkg install python2
+pkg install python
 git clone https://github.com/blackvkng/viSQL.git
 cd ~/viSQL
 chmod 777 viSQL.py
@@ -450,7 +454,7 @@ clear
 echo -e $green" installing scanner tools "
 sleep 1
 apt update && apt upgrade
-apt install python2
+apt install python
 mkdir scanner
 cd ~/scanner
 wget https://pastebin.com/raw/m79t1Zia -O scanner.py
@@ -482,7 +486,7 @@ echo -e $green" installing katoolin "
 sleep 1
 apt update && apt upgrade
 pkg install git
-pkg install python2
+pkg install python
 pkg install gnupg
 pkg install nano
 git clone https://github.com/LionSec/katoolin.git
@@ -674,7 +678,8 @@ clear
 echo -e $green" installing wordpress brute force "
 sleep 1
 apt-get update && apt-get upgrade
-apt-get install python2
+apt-get install python
+apt-get install python-pip
 pip install request
 git clone https://github.com/atarantini/wpbf
 echo -e $red" done install cuk "
@@ -698,7 +703,7 @@ clear
 echo -e $green" installing Instabot instagram bot "
 sleep 1
 apt-get update && apt-get upgrade
-pkg install python2
+pkg install python
 apt-get install git
 apt-get install nano
 git clone https://github.com/instabot-py/instabot.py
@@ -716,10 +721,10 @@ fi
 if [ $act = 44 ] || [ $act = 44 ]
 then
 clear
-echo -e $green" installing Instabot fsociety "
+echo -e $green" installing fsociety "
 sleep 1
 apt-get update && apt-get upgrade
-pkg install python2
+pkg install python
 apt-get install git
 git clone https://github.com/Manisso/fsociety
 echo -e $red" Done Install Cuk "
@@ -727,17 +732,17 @@ echo -e $red" Please wait... "
 echo -e $red" Please wait... "
 sleep 1
 cd fsociety
-echo -e $red" python2 fsociety.py "
+echo -e $red" python fsociety.py "
 fi
 
 
 if [ $act = 45 ] || [ $act = 45 ]
 then
 clear
-echo -e $green" installing Instabot CMS Scanner "
+echo -e $green" installing  CMS Scanner "
 sleep 1
 apt-get update && apt-get upgrade
-pkg install python2
+pkg install python
 apt-get install git
 git clone https://github.com/Dionach/CMSmap.git
 sleep 1
@@ -748,19 +753,59 @@ fi
 if [ $act = 46 ] || [ $act = 46 ]
 then
 clear
-echo -e $green" installing Instabot INFORMATION Gathering "
+echo -e $green" installing INFORMATION Gathering "
 sleep 1
 apt-get update && apt-get upgrade
-pkg install python2
+pkg install python
 apt-get install git
 git clone https://github.com/m4ll0k/Infoga.git infoga
 sleep 1
 cd infoga
 pip install -r req
-echo -e $red" Usage: python2 infoga.py "
+echo -e $red" Usage: python infoga.py "
 fi
 
+
 if [ $act = 47 ] || [ $act = 47 ]
+then
+clear
+echo -e $green" installing com fabrik exploiter "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install wget
+apt-get install php
+wget https://pastebin.com/raw/LDvFvtUD -O com_fabrik.php
+sleep 1
+echo -e $red" Usage: php com_fabrik.php target.txt "
+fi
+
+
+if [ $act = 48 ] || [ $act = 48 ]
+then
+clear
+echo -e $green" installing com foxcontact exploiter "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install wget
+apt-get install php
+wget https://pastebin.com/raw/EAtSir5V -O com_foxcontact.php
+sleep 1
+echo -e $red" Usage: php com_foxcontact.php target.txt "
+fi
+
+if [ $act = 49 ] || [ $act = 49 ]
+then
+clear
+echo -e $green" installing gmail brute force "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+git clone https://github.com/JamesAndresCM/Brute_force_gmail
+sleep 1
+echo -e $red" Usage: python2.7 brute_force_gmail.py example@gmail.com PATH_TO_DICTIONARY "
+fi
+
+if [ $act = 50 ] || [ $act = 50 ]
 then
 echo -e $green" pesan terakhir "
 sleep 1
