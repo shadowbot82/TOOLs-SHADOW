@@ -90,7 +90,10 @@ echo -e $green" 43) instabot (instagram bot)"
 echo -e $green" 44) fsociety"
 echo -e $green" 45) CMS Scanner"
 echo -e $green" 46) Information Gathering"
-echo -e $green" 47) exit"
+echo -e $green" 47) com_fabrik exploiter"
+echo -e $green" 48) com_foxcontact exploiter"
+echo -e $green" 49) gmail brute force"
+echo -e $green" 50) exit"
 echo -e $white""
 read -p "[mrcakil@Tools]> " act;
 
@@ -717,7 +720,7 @@ fi
 if [ $act = 44 ] || [ $act = 44 ]
 then
 clear
-echo -e $green" installing Instabot fsociety "
+echo -e $green" installing fsociety "
 sleep 1
 apt-get update && apt-get upgrade
 pkg install python2
@@ -735,7 +738,7 @@ fi
 if [ $act = 45 ] || [ $act = 45 ]
 then
 clear
-echo -e $green" installing Instabot CMS Scanner "
+echo -e $green" installing CMS Scanner "
 sleep 1
 apt-get update && apt-get upgrade
 pkg install python2
@@ -749,7 +752,7 @@ fi
 if [ $act = 46 ] || [ $act = 46 ]
 then
 clear
-echo -e $green" installing Instabot INFORMATION Gathering "
+echo -e $green" installing INFORMATION Gathering "
 sleep 1
 apt-get update && apt-get upgrade
 pkg install python2
@@ -762,6 +765,45 @@ echo -e $red" Usage: python2 infoga.py "
 fi
 
 if [ $act = 47 ] || [ $act = 47 ]
+then
+clear
+echo -e $green" installing com fabrik exploiter "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install wget
+apt-get install php
+wget https://pastebin.com/raw/LDvFvtUD -O com_fabrik.php
+sleep 1
+echo -e $red" Usage: php com_fabrik.php target.txt "
+fi
+
+
+if [ $act = 48 ] || [ $act = 48 ]
+then
+clear
+echo -e $green" installing com foxcontact exploiter "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install wget
+apt-get install php
+wget https://pastebin.com/raw/EAtSir5V -O com_foxcontact.php
+sleep 1
+echo -e $red" Usage: php com_foxcontact.php target.txt "
+fi
+
+if [ $act = 49 ] || [ $act = 49 ]
+then
+clear
+echo -e $green" installing gmail brute force "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+git clone https://github.com/JamesAndresCM/Brute_force_gmail
+sleep 1
+echo -e $red" Usage: python2.7 brute_force_gmail.py example@gmail.com PATH_TO_DICTIONARY "
+fi
+
+if [ $act = 50 ] || [ $act = 50 ]
 then
 echo -e $green" pesan terakhir "
 sleep 1
