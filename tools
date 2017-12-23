@@ -93,7 +93,8 @@ echo -e $green" 46) Information Gathering"
 echo -e $green" 47) com_fabrik exploiter"
 echo -e $green" 48) com_foxcontact exploiter"
 echo -e $green" 49) gmail brute force"
-echo -e $green" 50) exit"
+echo -e $green" 50) ezsploit"
+echo -e $green" 51) exit"
 echo -e $white""
 read -p "[mrcakil@Tools]> " act;
 
@@ -804,6 +805,18 @@ echo -e $red" Usage: python2.7 brute_force_gmail.py example@gmail.com PATH_TO_DI
 fi
 
 if [ $act = 50 ] || [ $act = 50 ]
+then
+clear
+echo -e $green" installing ezsploit "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+git clone https://github.com/rand0m1ze/ezsploit
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 51 ] || [ $act = 51 ]
 then
 echo -e $green" pesan terakhir "
 sleep 1
