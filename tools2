@@ -95,7 +95,8 @@ echo -e $green" 47) com_fabrik exploiter"
 echo -e $green" 48) com foxcontact exploiter"
 echo -e $green" 49) gmail brute force"
 echo -e $green" 50) ezsploit"
-echo -e $green" 51) exit"
+echo -e $green" 51) TheFatRat"
+echo -e $green" 52) exit"
 echo -e $white""
 read -p "[mrcakil@Tools]> " act;
 
@@ -820,6 +821,20 @@ echo -e $red" Done Install cuk "
 fi
 
 if [ $act = 51 ] || [ $act = 51 ]
+then
+clear
+echo -e $green" installing TheFatRat "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+git clone https://github.com/Screetsec/TheFatRat.git
+cd TheFatRat
+chmod +x setup.sh && ./setup.sh
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 52 ] || [ $act = 52 ]
 then
 echo -e $green" pesan terakhir "
 sleep 1
