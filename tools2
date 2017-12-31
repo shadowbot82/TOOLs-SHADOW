@@ -95,8 +95,9 @@ echo -e $green" 47) com_fabrik exploiter"
 echo -e $green" 48) com foxcontact exploiter"
 echo -e $green" 49) gmail brute force"
 echo -e $green" 50) ezsploit"
-echo -e $green" 51) TheFatRat"
-echo -e $green" 52) exit"
+echo -e $green" 51) spammer-grab sms"
+echo -e $green" 52) The Fat Rat"
+echo -e $green" 53) exit"
 echo -e $white""
 read -p "[mrcakil@Tools]> " act;
 
@@ -823,6 +824,20 @@ fi
 if [ $act = 51 ] || [ $act = 51 ]
 then
 clear
+echo -e $green" installing spammer grab "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+apt-get install python
+pip install requests
+git clone https://github.com/p4kl0nc4t/Spammer-Grab/
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 52 ] || [ $act = 52 ]
+then
+clear
 echo -e $green" installing TheFatRat "
 sleep 1
 apt-get update && apt-get upgrade
@@ -834,7 +849,7 @@ sleep 1
 echo -e $red" Done Install cuk "
 fi
 
-if [ $act = 52 ] || [ $act = 52 ]
+if [ $act = 53 ] || [ $act = 53 ]
 then
 echo -e $green" pesan terakhir "
 sleep 1
