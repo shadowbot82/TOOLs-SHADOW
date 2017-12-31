@@ -2,6 +2,7 @@
 
 # Auto Install Tools v.2.1
 # recoded By Mr.Cakil
+# gausah ganti copyright kalo mau di hargai :)
 # Bersihkan Layar
 clear
 
@@ -98,7 +99,8 @@ echo -e $green" 50) ezsploit"
 echo -e $green" 51) spammer-grab sms"
 echo -e $green" 52) spammer call toko-pedia"
 echo -e $green" 53) The Fat Rat"
-echo -e $green" 53) exit"
+echo -e $green" 54) IPGeolocation"
+echo -e $green" 55) exit"
 echo -e $white""
 read -p "[mrcakil@Tools]> " act;
 
@@ -866,6 +868,22 @@ echo -e $red" Done Install cuk "
 fi
 
 if [ $act = 54 ] || [ $act = 54 ]
+then
+clear
+echo -e $green" installing IPGeolocation "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+apt install python
+git clone https://github.com/maldevel/IPGeolocation.git
+cd IPGeolocation
+chmod +x ipgeolocation.py
+pip install -r requirements.txt
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 55 ] || [ $act = 55 ]
 then
 echo -e $green" pesan terakhir "
 sleep 1
