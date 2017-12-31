@@ -96,7 +96,8 @@ echo -e $green" 48) com foxcontact exploiter"
 echo -e $green" 49) gmail brute force"
 echo -e $green" 50) ezsploit"
 echo -e $green" 51) spammer-grab sms"
-echo -e $green" 52) The Fat Rat"
+echo -e $green" 52) spammer call toko-pedia"
+echo -e $green" 53) The Fat Rat"
 echo -e $green" 53) exit"
 echo -e $white""
 read -p "[mrcakil@Tools]> " act;
@@ -838,6 +839,21 @@ fi
 if [ $act = 52 ] || [ $act = 52 ]
 then
 clear
+echo -e $green" installing spammer toko pedia "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+apt-get install unzip
+git clone https://github.com/mrcakil/spam
+cd spam
+unzip toko-pedia.zip
+sleep 1
+echo -e $red" Done Install cuk "
+fi
+
+if [ $act = 53 ] || [ $act = 53 ]
+then
+clear
 echo -e $green" installing TheFatRat "
 sleep 1
 apt-get update && apt-get upgrade
@@ -849,7 +865,7 @@ sleep 1
 echo -e $red" Done Install cuk "
 fi
 
-if [ $act = 53 ] || [ $act = 53 ]
+if [ $act = 54 ] || [ $act = 54 ]
 then
 echo -e $green" pesan terakhir "
 sleep 1
