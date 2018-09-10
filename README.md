@@ -1,5 +1,4 @@
-# PENTESTER TOOLS V2.1
-# how to install
+# INI CARA INSTALLNYA COY ...
 # git clone https://github.com/shadowbot82/TOOLs-SHADOW.git
 # cd TOOLs-SHADOW
 # chmod 777 shadowbot
