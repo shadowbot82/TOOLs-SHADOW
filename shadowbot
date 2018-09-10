@@ -1,8 +1,9 @@
 #!/bin/bash
 
-# Auto Install Tools Shadow
-# recoded By Shadow Bot
-# gausah ganti copyright BANGSAT!!! 
+# Mau Ngapain Njeng ...
+# Mau Copas?Recoded?Reedit?
+# Mati Aja Lo BANGSAT!!!
+# Hargai Karya Gue NJINGG ...
 # Bersihkan Layar
 clear
 
@@ -32,13 +33,13 @@ read enter
 exit
 }
 
-echo -e $red"                 ######     ##      ##    ####    ## ####         ######    ##     ##     ##"
-echo -e $yellow"            ##      ##   ##      ##  ##    ##  ##      ##    ##      ##  ##    ####    ##"
-echo -e $lightgreen"      ##            ##      ## ##      ## ##       ##  ##        ## ##   ##  ##   ##"
-echo -e $white"              #########   ## #### ## ## #### ## ##        ## ##        ## ##  ##    ##  ##"
-echo -e $red"                         ## ##      ## ##      ## ##        ## ##        ## ## ##      ## ##"
-echo -e $yellow"            ##      ##   ##      ## ##      ## ##      ##    ##      ##  ####        ####"
-echo -e $lightgreen"          ######     ##      ## ##      ## ## ####         ######    ##            ##"
+echo -e $red"                 ######    ##      ##    ####    ## ####         ######    ##     ##     ##"
+echo -e $yellow"            ##      ##  ##      ##  ##    ##  ##      ##    ##      ##  ##    ####    ##"
+echo -e $lightgreen"       ##           ##      ## ##      ## ##       ##  ##        ## ##   ##  ##   ##"
+echo -e $white"              #########  ## #### ## ## #### ## ##        ## ##        ## ##  ##    ##  ##"
+echo -e $red"                        ## ##      ## ##      ## ##        ## ##        ## ## ##      ## ##"
+echo -e $yellow"            ##      ##  ##      ## ##      ## ##      ##    ##      ##  ####        ####"
+echo -e $lightgreen"          ######    ##      ## ##      ## ## ####         ######    ##            ##"
 
 echo -e $yellow"           ==============================================================================="
 
