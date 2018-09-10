@@ -54,9 +54,7 @@ echo -e $white"                           -Tahu Bulat Com     #"
 echo -e $yellow"           ==============================================================================="
 
 
-==================================================
-Silahkan di pilih tools yang lu mau :)
---------------------------------------------------
+
 echo ""               
 echo -e $lightgreen" 01) Red Hawk"
 echo -e $lightgreen" 02) D-Tect"
