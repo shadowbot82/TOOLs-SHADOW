@@ -33,18 +33,18 @@ read enter
 exit
 }
 
-echo -e $red"          ###   #     #   ###   # ###      ###   #       #"
-echo -e $yellow"     #     # #     # #     # #     #  #     # #   #   #"
-echo -e $lightgreen"# ###    # ### # # ### # #      # #     # #  # #  #"
-echo -e $red"     #      #   #     # #     # #     #  #     # # #   # #"
-echo -e $yellow"    ### #    #     # #     # # ###      ###   #       #"
+echo -e $red"             ###    #     #   ###   # ###      ###   #       #"
+echo -e $yellow"        #     #  #     # #     # #     #  #     # #   #   #"
+echo -e $lightgreen".   # ###    # ### # # ### # #      # #     # #  # #  #"
+echo -e $red"         #      #   #     # #     # #     #  #     # # #   # #"
+echo -e $yellow"        ### #    #     # #     # # ###      ###   #       #"
 
 echo -e $blue"=================================================="
 
 echo -e $red"      # Name     : Shadow Bot            #"
 echo -e $red"      # Team     : INDEPENDENT TEAM      #"
-echo -e $white"    # Contact  : @shadowbot82          #"
-echo -e $white"    # Youtube  : SHADOW BOT CHANNEL    #"
+echo -e $white"      # Contact  : @shadowbot82          #"
+echo -e $white"      # Youtube  : SHADOW BOT CHANNEL    #"
 
 echo -e $red"      # Thanks To : -Rabbit Team Cyber   #"
 echo -e $white"                  -Tahu Bulat Com      #"
