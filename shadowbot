@@ -33,29 +33,29 @@ read enter
 exit
 }
 
-echo -e $red"                 ######    ##      ##    ####    ## ####         ######    ##     ##     ##"
-echo -e $yellow"            ##      ##  ##      ##  ##    ##  ##      ##    ##      ##  ##    ####    ##"
-echo -e $lightgreen"       ##           ##      ## ##      ## ##       ##  ##        ## ##   ##  ##   ##"
-echo -e $white"              #########  ## #### ## ## #### ## ##        ## ##        ## ##  ##    ##  ##"
-echo -e $red"                        ## ##      ## ##      ## ##        ## ##        ## ## ##      ## ##"
-echo -e $yellow"            ##      ##  ##      ## ##      ## ##      ##    ##      ##  ####        ####"
-echo -e $lightgreen"          ######    ##      ## ##      ## ## ####         ######    ##            ##"
+echo -e $red"          ###   #     #   ###   # ###      ###   #       #"
+echo -e $yellow"     #     # #     # #     # #     #  #     # #   #   #"
+echo -e $lightgreen"# ###    # ### # # ### # #      # #     # #  # #  #"
+echo -e $red"     #      #   #     # #     # #     #  #     # # #   # #"
+echo -e $yellow"    ### #    #     # #     # # ###      ###   #       #"
 
-echo -e $yellow"           ==============================================================================="
+echo -e $blue"=================================================="
 
-echo -e $red"               # Name     : Shadow Bot            #"
-echo -e $red"               # Team     : INDEPENDENT TEAM      #"
-echo -e $white"             # Contact  : @shadowbot82          #"
-echo -e $white"             # Youtube  : SHADOW BOT CHANNEL    #"
+echo -e $red"      # Name     : Shadow Bot            #"
+echo -e $red"      # Team     : INDEPENDENT TEAM      #"
+echo -e $white"    # Contact  : @shadowbot82          #"
+echo -e $white"    # Youtube  : SHADOW BOT CHANNEL    #"
 
-echo -e $red"               # Thanks To : -Rabbit Team Cyber   #"
-echo -e $white"                           -Tahu Bulat Com      #"
+echo -e $red"      # Thanks To : -Rabbit Team Cyber   #"
+echo -e $white"                  -Tahu Bulat Com      #"
 
-echo -e $yellow"           ==============================================================================="
+echo -e $blue"=================================================="
 
 
-
-echo ""               
+echo ""
+echo -e $red"==============================[>]"
+echo -e $white"Silahkan Pilih Tools Yang Lu Suka Coy ..."
+echo -e $red"==============================[>]"
 echo -e $lightgreen" 01) Red Hawk"
 echo -e $lightgreen" 02) D-Tect"
 echo -e $lightgreen" 03) Hunner"
@@ -113,9 +113,9 @@ echo -e $lightgreen" 54) IPGeolocation"
 echo -e $lightgreen" 55) OSIF"
 echo -e $lightgreen" 56) Instatools"
 echo -e $lightgreen" 57) Scan-Admin-Login"
-
-echo -e $green" 00) exit"
-
+echo -e $red"==============================[>]"
+echo -e $white" 00) exit"
+echo -e $red"==============================[>]"
 echo -e $red""
 read -p "[shadow@Tools]> " act;
 
