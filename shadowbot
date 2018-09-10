@@ -53,9 +53,9 @@ echo -e $red"=================================================="
 
 
 echo ""
-echo -e $red"==============================[>]"
-echo -e $white"Silahkan Pilih Tools Yang Lu Suka Coy ..."
-echo -e $red"==============================[>]"
+echo -e $yellow"==============================[>]"
+echo -e $red"Silahkan Pilih Tools Yang Lu Suka Coy ..."
+echo -e $yellow"==============================[>]"
 echo -e $lightgreen" 01) Red Hawk"
 echo -e $lightgreen" 02) D-Tect"
 echo -e $lightgreen" 03) Hunner"
@@ -113,10 +113,10 @@ echo -e $lightgreen" 54) IPGeolocation"
 echo -e $lightgreen" 55) OSIF"
 echo -e $lightgreen" 56) Instatools"
 echo -e $lightgreen" 57) Scan-Admin-Login"
-echo -e $red"==============================[>]"
-echo -e $white" 00) exit"
-echo -e $red"==============================[>]"
-echo -e $yellow""
+echo -e $yellow"==============================[>]"
+echo -e $red" 00) exit"
+echo -e $yellow"==============================[>]"
+echo -e $cyan""
 read -p "[shadow@Tools]> " act;
 
 if [ $act = 01 ] || [ $act = 01 ]
