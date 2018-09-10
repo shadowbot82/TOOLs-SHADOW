@@ -39,7 +39,7 @@ echo -e $lightgreen"        # ###    # ### # # ### # #      # #     # #  # #  #"
 echo -e $red"      #      #   #     # #     # #     #  #     # # #   # #"
 echo -e $yellow"        ### #    #     # #     # # ###      ###   #       #"
 
-echo -e $blue"=================================================="
+echo -e $white"=================================================="
 
 echo -e $red"      # Name     : Shadow Bot            #"
 echo -e $red"      # Team     : INDEPENDENT TEAM      #"
@@ -49,7 +49,7 @@ echo -e $white"      # Youtube  : SHADOW BOT CHANNEL    #"
 echo -e $red"      # Thanks To : -Rabbit Team Cyber   #"
 echo -e $white"                    -Tahu Bulat Com      #"
 
-echo -e $blue"=================================================="
+echo -e $red"=================================================="
 
 
 echo ""
@@ -116,7 +116,7 @@ echo -e $lightgreen" 57) Scan-Admin-Login"
 echo -e $red"==============================[>]"
 echo -e $white" 00) exit"
 echo -e $red"==============================[>]"
-echo -e $red""
+echo -e $yellow""
 read -p "[shadow@Tools]> " act;
 
 if [ $act = 01 ] || [ $act = 01 ]
@@ -942,23 +942,23 @@ fi
 
 if [ $act = 00 ] || [ $act = 00 ]
 then
-echo -e $green" Penutup "
+echo -e $red" Salam Penutup "
 sleep 1
-echo -e $green" Dear jomblo "
+echo -e $red" Dear Jones :)"
 sleep 1
-echo -e $green" Jangan nyabun mulu coli sana ... "
+echo -e $red" Jangan nyabun mulu coli sana wkwkwkkk ... "
 sleep 1
-echo -e $green" Tunggu bentar coy .... "
+echo -e $yellow" Tunggu bentar coy .... "
 sleep 1
-echo -e $green" Contact : @shadowbot82 "
+echo -e $yellow" Contact : @shadowbot82 "
 sleep 1
-echo -e $red" Youtube : SHADOW BOT CHANNEL "
+echo -e $yellow" Youtube : SHADOW BOT CHANNEL "
 sleep 1
-echo -e $red" Bantu Sampe 10k Subs eaa ..."
+echo -e $lightgreen" Bantu Sampe 10k Subs eaax ..."
 sleep 1
-echo -e $red" Sampai jumpa di lain waktu :) "
+echo -e $lightgreen" Sampai jumpa di lain waktu :) "
 sleep 1
-echo -e $red" Thank You :* "
+echo -e $lightgreen" Thank You :) "
 sleep 1
 exit
 fi
