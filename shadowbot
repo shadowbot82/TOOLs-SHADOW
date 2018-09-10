@@ -43,13 +43,13 @@ echo -e $lightgreen"          ######    ##      ## ##      ## ## ####         ##
 
 echo -e $yellow"           ==============================================================================="
 
-echo -e $red"               # Name : Shadow Bot              #"
-echo -e $red"                # Team : INDEPENDENT TEAM        #"
-echo -e $white"             # Contact : @shadowbot82         #"
-echo -e $white"              # Youtube : SHADOW BOT CHANNEL   #"
+echo -e $red"               # Name     : Shadow Bot            #"
+echo -e $red"               # Team     : INDEPENDENT TEAM      #"
+echo -e $white"             # Contact  : @shadowbot82          #"
+echo -e $white"             # Youtube  : SHADOW BOT CHANNEL    #"
 
-echo -e $red"               # Thanks To : -Rabbit Team Cyber #"
-echo -e $white"                           -Tahu Bulat Com     #"
+echo -e $red"               # Thanks To : -Rabbit Team Cyber   #"
+echo -e $white"                           -Tahu Bulat Com      #"
 
 echo -e $yellow"           ==============================================================================="
 
@@ -113,9 +113,9 @@ echo -e $lightgreen" 54) IPGeolocation"
 echo -e $lightgreen" 55) OSIF"
 echo -e $lightgreen" 56) Instatools"
 echo -e $lightgreen" 57) Scan-Admin-Login"
---------------------------------------------------
+
 echo -e $green" 00) exit"
-==================================================
+
 echo -e $red""
 read -p "[shadow@Tools]> " act;
 
