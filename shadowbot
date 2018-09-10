@@ -116,7 +116,7 @@ echo -e $lightgreen" 57) Scan-Admin-Login"
 echo -e $yellow"==============================[>]"
 echo -e $red" 00) exit"
 echo -e $yellow"==============================[>]"
-echo -e $cyan""
+echo -e $okegreen""
 read -p "[shadow@Tools]> " act;
 
 if [ $act = 01 ] || [ $act = 01 ]
