@@ -35,7 +35,7 @@ exit
 
 echo -e $red"          ###    #     #   ###   # ###      ###   #       #"
 echo -e $yellow"        #     #  #     # #     # #     #  #     # #   #   #"
-echo -e $lightgreen"          # ###    # ### # # ### # #      # #     # #  # #  #"
+echo -e $lightgreen"        # ###    # ### # # ### # #      # #     # #  # #  #"
 echo -e $red"      #      #   #     # #     # #     #  #     # # #   # #"
 echo -e $yellow"        ### #    #     # #     # # ###      ###   #       #"
 
@@ -46,8 +46,8 @@ echo -e $red"      # Team     : INDEPENDENT TEAM      #"
 echo -e $white"      # Contact  : @shadowbot82          #"
 echo -e $white"      # Youtube  : SHADOW BOT CHANNEL    #"
 
-echo -e $red"        # Thanks To : -Rabbit Team Cyber   #"
-echo -e $white"                     -Tahu Bulat Com      #"
+echo -e $red"      # Thanks To : -Rabbit Team Cyber   #"
+echo -e $white"                    -Tahu Bulat Com      #"
 
 echo -e $blue"=================================================="
 
