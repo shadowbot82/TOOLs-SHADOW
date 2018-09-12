@@ -113,6 +113,9 @@ echo -e $lightgreen" 54) IPGeolocation"
 echo -e $lightgreen" 55) OSIF"
 echo -e $lightgreen" 56) Instatools"
 echo -e $lightgreen" 57) Scan-Admin-Login"
+echo -e $lightgreen" 58) Nuyul Cashtree"
+echo -e $lightgreen" 59) Google Play Claim" 
+echo -e $lightgreen" 60) Kubik-bot"
 echo -e $yellow"==============================[>]"
 echo -e $red" 00) exit"
 echo -e $yellow"==============================[>]"
@@ -936,6 +939,46 @@ apt-get update && apt-get upgrade
 apt-get insatll python2
 apt-get insatl git 
 git clone git clone https://github.com/shadowbot82/Scan-Admin-Login.git
+sleep 1
+echo -e $red" Selesai Install Coy ... "
+fi
+
+if [ $act = 58 ] || [ $act = 58 ]
+then
+clear
+echo -e $lightgreen" installing Nuyul Cashtree "
+sleep 1
+apt-get install php
+apt-get insatll nano
+apt-get insatll git
+git clone https://github.com/shadowbot82/cashtree.git
+sleep 1
+echo -e $red" Selesai Install Coy ... "
+fi
+
+if [ $act = 59 ] || [ $act = 59 ]
+then
+clear
+echo -e $lightgreen" installing Google Play Claim "
+sleep 1
+apt-get install git
+apt-get install toilet
+apt-get install ruby
+apt-get install lolcat
+git clone https://github.com/shadowbot82/gpclaim.git
+sleep 1
+echo -e $red" Selesai Install Coy ... "
+fi
+
+if [ $act = 60 ] || [ $act = 60 ]
+then
+clear
+echo -e $lightgreen" installing kubik-bot "
+sleep 1
+apt-get install nano
+apt-get install php
+apt-get install git 
+git clone https://github.com/shadowbot82/kubik-bot.git
 sleep 1
 echo -e $red" Selesai Install Coy ... "
 fi
