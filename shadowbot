@@ -48,8 +48,9 @@ echo -e $white"      # Youtube  : SHADOW BOT CHANNEL    #"
 
 echo -e $red"      # Thanks To : -Rabbit Team Cyber   #"
 echo -e $white"                    -Tahu Bulat Com      #"
+echo -e $red"                   version 1.0
 
-echo -e $red"     =================================================="
+echo -e $white"     =================================================="
 
 
 echo ""
@@ -57,7 +58,7 @@ echo -e $yellow"==============================[>]"
 echo -e $red"Silahkan Pilih Tools Yang Lu Suka Coy ..."
 echo -e $yellow"==============================[>]"
 
-
+echo ""
 echo -e $lightgreen"[+]=================================[+]"
 echo -e $red" 01) Red Hawk"
 echo -e $white"[+]=================================[+]"
