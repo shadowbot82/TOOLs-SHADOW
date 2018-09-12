@@ -56,70 +56,140 @@ echo ""
 echo -e $yellow"==============================[>]"
 echo -e $red"Silahkan Pilih Tools Yang Lu Suka Coy ..."
 echo -e $yellow"==============================[>]"
-echo -e $lightgreen" 01) Red Hawk"
-echo -e $lightgreen" 02) D-Tect"
+
+
+echo -e $lightgreen"[+]=================================[+]"
+echo -e $red" 01) Red Hawk"
+echo -e $white"[+]=================================[+]"
+echo -e $yellow" 02) D-Tect"
+echo -e $red"[+]=================================[+]"
 echo -e $lightgreen" 03) Hunner"
-echo -e $lightgreen" 04) WPScan"
-echo -e $lightgreen" 05) Webdav"
-echo -e $lightgreen" 06) Metasploit"
+echo -e $yellow"[+]=================================[+]"
+echo -e $white" 04) WPScan"
+echo -e $lightgreen"[+]=================================[+]"
+echo -e $red" 05) Webdav"
+echo -e $white"[+]=================================[+]"
+echo -e $yellow" 06) Metasploit"
+echo -e $red"[+]=================================[+]"
 echo -e $lightgreen" 07) Kali Nethunter"
-echo -e $lightgreen" 08) Ubuntu"
-echo -e $lightgreen" 09) Youtube Dl"
-echo -e $lightgreen" 10) viSQL "
+echo -e $yellow"[+]=================================[+]"
+echo -e $white" 08) Ubuntu"
+echo -e $lightgreen"[+]=================================[+]"
+echo -e $red" 09) Youtube Dl"
+echo -e $white"[+]=================================[+]"
+echo -e $yellow" 10) viSQL "
+echo -e $red"[+]=================================[+]"
 echo -e $lightgreen" 11) Weeman"
-echo -e $lightgreen" 12) WFDroid"
-echo -e $lightgreen" 13) FBBrute"
-echo -e $lightgreen" 14) Ngrok"
+echo -e $yellow"[+]=================================[+]"
+echo -e $white" 12) WFDroid"
+echo -e $lightgreen"[+]=================================[+]"
+echo -e $red" 13) FBBrute"
+echo -e $white"[+]=================================[+]"
+echo -e $yellow" 14) Ngrok"
+echo -e $red"[+]=================================[+]"
 echo -e $lightgreen" 15) Torshammer "
-echo -e $lightgreen" 16) RouterSploit "
-echo -e $lightgreen" 17) Hydra "
-echo -e $lightgreen" 18) Weevely "
+echo -e $yellow"[+]=================================[+]"
+echo -e $white" 16) RouterSploit "
+echo -e $lightgreen"[+]=================================[+]"
+echo -e $red" 17) Hydra "
+echo -e $white"[+]=================================[+]"
+echo -e $yellow" 18) Weevely "
+echo -e $red"[+]=================================[+]"
 echo -e $lightgreen" 19) SQLMap "
-echo -e $lightgreen" 20) Dirbuster "
-echo -e $lightgreen" 21) admin finder "
-echo -e $lightgreen" 22) lokomedia exploiter "
+echo -e $yellow"[+]=================================[+]"
+echo -e $white" 20) Dirbuster "
+echo -e $lightgreen"[+]=================================[+]"
+echo -e $red" 21) admin finder "
+echo -e $white"[+]=================================[+]"
+echo -e $yellow" 22) lokomedia exploiter "
+echo -e $red"[+]=================================[+]"
 echo -e $lightgreen" 23) elfinder exploiter "
-echo -e $lightgreen" 24) magento add admin exploiter "
-echo -e $lightgreen" 25) scanner tools "
-echo -e $lightgreen" 26) bing dorker "
+echo -e $yellow"[+]=================================[+]"
+echo -e $white" 24) magento add admin exploiter "
+echo -e $lightgreen"[+]=================================[+]"
+echo -e $red" 25) scanner tools "
+echo -e $white"[+]=================================[+]"
+echo -e $yellow" 26) bing dorker "
+echo -e $red"[+]=================================[+]"
 echo -e $lightgreen" 27) katoolin "
-echo -e $lightgreen" 28) arch linux "
-echo -e $lightgreen" 29) linux fedora"
-echo -e $lightgreen" 30) hash-buster"
+echo -e $yellow"[+]=================================[+]"
+echo -e $white" 28) arch linux "
+echo -e $lightgreen"[+]=================================[+]"
+echo -e $red" 29) linux fedora"
+echo -e $white"[+]=================================[+]"
+echo -e $yellow" 30) hash-buster"
+echo -e $red"[+]=================================[+]"
 echo -e $lightgreen" 31) sudo"
-echo -e $lightgreen" 32) aircrack-ng"
-echo -e $lightgreen" 33) joomscan"
-echo -e $lightgreen" 34) bing-ip2hosts"
+echo -e $yellow"[+]=================================[+]"
+echo -e $white" 32) aircrack-ng"
+echo -e $lightgreen"[+]=================================[+]"
+echo -e $red" 33) joomscan"
+echo -e $white"[+]=================================[+]"
+echo -e $yellow" 34) bing-ip2hosts"
+echo -e $red"[+]=================================[+]"
 echo -e $lightgreen" 35) BlueMaho"
-echo -e $lightgreen" 36) Bluepot"
-echo -e $lightgreen" 37) honeypot"
-echo -e $lightgreen" 38) bot auto deface 1"
+echo -e $yellow"[+]=================================[+]"
+echo -e $white" 36) Bluepot"
+echo -e $lightgreen"[+]=================================[+]"
+echo -e $red" 37) honeypot"
+echo -e $white"[+]=================================[+]"
+echo -e $yellow" 38) bot auto deface 1"
+echo -e $red"[+]=================================[+]"
 echo -e $lightgreen" 39) bot auto deface 2"
-echo -e $lightgreen" 40) mailer sender cli"
-echo -e $lightgreen" 41) Wordpress Brute Force"
-echo -e $lightgreen" 42) Oh-myzsh theme for termux"
+echo -e $yellow"[+]=================================[+]"
+echo -e $white" 40) mailer sender cli"
+echo -e $lightgreen"[+]=================================[+]"
+echo -e $red" 41) Wordpress Brute Force"
+echo -e $white"[+]=================================[+]"
+echo -e $yellow" 42) Oh-myzsh theme termux"
+echo -e $red"[+]=================================[+]"
 echo -e $lightgreen" 43) instabot (instagram bot)"
-echo -e $lightgreen" 44) fsociety"
-echo -e $lightgreen" 45) Cms Scanner"
-echo -e $lightgreen" 46) Information Gathering"
-echo -e $lightgreen" 47) com_fabrik exploiter"
-echo -e $lightgreen" 48) com foxcontact exploiter"
-echo -e $lightgreen" 49) gmail brute force"
+echo -e $yellow"[+]=================================[+]"
+echo -e $white" 44) fsociety"
+echo -e $lightgreen"[+]=================================[+]"
+echo -e $red" 45) Cms Scanner"
+echo -e $white"[+]=================================[+]"
+echo -e $yellow" 46) Information Gathering"
+echo -e $red"[+]=================================[+]"
+echo -e $white" 47) com_fabrik exploiter"
+echo -e $yellow"[+]=================================[+]"
+echo -e $red" 48) com foxcontact exploiter"
+echo -e $lightgreen"[+]=================================[+]"
+echo -e $yellow" 49) gmail brute force"
+echo -e $white"[+]=================================[+]"
 echo -e $lightgreen" 50) ezsploit"
-echo -e $lightgreen" 51) spammer-grab sms"
-echo -e $lightgreen" 52) spammer call toko-pedia"
-echo -e $lightgreen" 53) The Fat Rat"
+echo -e $red"[+]=================================[+]"
+echo -e $white" 51) spammer-grab sms"
+echo -e $yellow"[+]=================================[+]"
+echo -e $red" 52) spammer call toko-pedia"
+echo -e $lightgreen"[+]=================================[+]"
+echo -e $yellow" 53) The Fat Rat"
+echo -e $white"[+]=================================[+]"
 echo -e $lightgreen" 54) IPGeolocation"
-echo -e $lightgreen" 55) OSIF"
-echo -e $lightgreen" 56) Instatools"
-echo -e $lightgreen" 57) Scan-Admin-Login"
+echo -e $red"[+]=================================[+]"
+echo -e $white" 55) OSIF"
+echo -e $yellow"[+]=================================[+]"
+echo -e $red" 56) Instatools"
+echo -e $lightgreen"[+]=================================[+]"
+echo -e $yellow" 57) Scan-Admin-Login"
+echo -e $white"[+]=================================[+]"
 echo -e $lightgreen" 58) Nuyul Cashtree"
-echo -e $lightgreen" 59) Google Play Claim" 
-echo -e $lightgreen" 60) Kubik-bot"
+echo -e $red"[+]=================================[+]"
+echo -e $white" 59) Google Play Claim" 
+echo -e $yellow"[+]=================================[+]"
+echo -e $red" 60) Kubik-bot"
+echo -e $lightgreen"[+]=================================[+]"
+echo -e $yellow" 61) Spam-Wa"
+echo -e $red"[+]=================================[+]"
+echo -e $lightgreen" 62) Websploit"
+echo -e $white"[+]=================================[+]"
+echo -e $red" 63) mbf"
+echo -e $lightgreen"[+]=================================[+]"
+
 echo -e $yellow"==============================[>]"
 echo -e $red" 00) exit"
 echo -e $yellow"==============================[>]"
-echo -e $white""
+echo -e $lightgreen""
 read -p "[shadow@Tools]> " act;
 
 if [ $act = 01 ] || [ $act = 01 ]
@@ -983,11 +1053,53 @@ sleep 1
 echo -e $red" Selesai Install Coy ... "
 fi
 
+if [ $act = 61 ] || [ $act = 61 ]
+then
+clear
+echo -e $lightgreen" installing Spam-Wa "
+sleep 1
+apt-get install nano
+apt-get install php
+apt-get install git 
+git clone https://github.com/shadowbot82/Spam-wa.git
+sleep 1
+echo -e $red" Selesai Install Coy ... "
+fi
+
+if [ $act = 62 ] || [ $act = 62 ]
+then
+clear
+echo -e $lightgreen" install Websploit "
+sleep 1
+apt-get update
+apt-get upgrade
+apt-get install python
+apt-get install python2
+apt-get install git
+git clone https://github.com/shadowbot82/Websploit.git
+sleep 1
+echo -e $red" Selesai Install Coy ... "
+fi
+
+if [ $act = 63 ] || [ $act = 63 ]
+then
+clear
+echo -e $lightgreen" install mbf "
+sleep 1
+apt-get upgrade
+apt-get install python 
+apt-get install python2
+apt-get install git 
+git clone https://github.com/shadowbot82/mbf.git
+sleep 1
+echo -e $red" Selesai Install Coy ... "
+fi
+
 if [ $act = 00 ] || [ $act = 00 ]
 then
 echo -e $red" Salam Penutup "
 sleep 1
-echo -e $red" Dear Jones :)"
+echo -e $red" Dear Jones Karat :)"
 sleep 1
 echo -e $red" Jangan nyabun mulu coli sana wkwkwkkk ... "
 sleep 1
