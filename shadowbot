@@ -39,7 +39,7 @@ echo -e $lightgreen"        # ###    # ### # # ### # #      # #     # #  # #  #"
 echo -e $red"      #      #   #     # #     # #     #  #     # # #   # #"
 echo -e $yellow"        ### #    #     # #     # # ###      ###   #       #"
 
-echo -e $white"=================================================="
+echo -e $white"    =================================================="
 
 echo -e $red"      # Name     : Shadow Bot            #"
 echo -e $red"      # Team     : INDEPENDENT TEAM      #"
@@ -49,7 +49,7 @@ echo -e $white"      # Youtube  : SHADOW BOT CHANNEL    #"
 echo -e $red"      # Thanks To : -Rabbit Team Cyber   #"
 echo -e $white"                    -Tahu Bulat Com      #"
 
-echo -e $red"=================================================="
+echo -e $red"     =================================================="
 
 
 echo ""
