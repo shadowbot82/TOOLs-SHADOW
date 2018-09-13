@@ -188,6 +188,8 @@ echo -e $red" 63) mbf"
 echo -e $lightgreen"[+]=================================[+]"
 echo -e $yellow" 64) SCANNER-INURLBR"
 echo -e $white"[+]=================================[+]"
+echo -e $lightgreen" 65) Google Dork"
+echo -e $red"[+] ================================[+] "
 echo -e ""
 echo -e $yellow" [<]==============================[>]"
 echo -e $red"  00) Keluar Njengg... "
@@ -1113,6 +1115,21 @@ cd SCANNER-INURLBR
 chmod +x inurlbr.php
 sleep 1
 echo -e $yellow" Selamat Udah Berhasil Ke Install ... "
+fi
+
+if [ $act = 64 ] || [ $act = 64 ]
+then
+echo -e $yellow" Tunggu Bentar Coy... "
+sleep 1
+echo -e $lightgreen" installing Google Dork"
+sleep 1
+apt update 
+apt upgrade
+apt install python2
+apt install git
+git clone https://github.com/XG77Z10/Google-Dork
+sleep 1
+echo -e $yellow" Selamat Udah Berhasil Ke Instal... "
 fi
 
 if [ $act = 00 ] || [ $act = 00 ]
