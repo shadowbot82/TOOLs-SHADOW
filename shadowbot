@@ -186,6 +186,8 @@ echo -e $lightgreen" 62) Websploit"
 echo -e $white"[+]=================================[+]"
 echo -e $red" 63) mbf"
 echo -e $lightgreen"[+]=================================[+]"
+echo -e $yellow" 64) SCANNER-INURLBR"
+echo -e $white"[+]=================================[+]"
 echo -e ""
 echo -e $yellow" [<]==============================[>]"
 echo -e $red"  00) Keluar Njengg... "
@@ -202,7 +204,7 @@ apt update && apt upgrade
 apt install php
 apt install git
 git clone https://github.com/Tuhinshubhra/RED_HAWK
-echo -e $green" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 02 ] || [ $act = 02 ]
@@ -214,7 +216,7 @@ apt-get update && apt-get upgrade
 apt-get install git
 apt-get install python
 git clone https://github.com/shawarkhanethicalhacker/D-TECT
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 03 ] || [ $act = 03 ]
@@ -226,7 +228,7 @@ apt-get update && apt-get upgrade
 apt install python
 apt install git
 git clone https://github.com/b3-v3r/Hunner
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 04 ] || [ $act = 04 ]
@@ -245,7 +247,7 @@ bundle config build.nokogiri --use-system-libraries
 bundle install
 ruby wpscan.rb --update
 cd ~/
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 05 ] || [ $act = 05 ]
@@ -264,7 +266,7 @@ cd ~/webdav
 wget https://pastebin.com/raw/HnVyQPtR -O webdav.py
 chmod 777 webdav.py
 cd ~/
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 06 ] || [ $act = 06 ]
@@ -278,7 +280,7 @@ apt install wget
 wget https://raw.githubusercontent.com/verluchie/termux-metasploit/master/install.sh
 chmod 777 install.sh
 sh install.sh
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 07 ] || [ $act = 07 ]
@@ -292,7 +294,7 @@ git clone https://github.com/Hax4us/Nethunter-In-Termux.git
 cd ~/Nethunter-In-Termux
 chmod 777 kalinethunter
 sh kalinethunter
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 08 ] || [ $act = 08 ]
@@ -311,7 +313,7 @@ sh ubuntu.sh
 echo " Fix network please wait "
 sleep 1
 echo "nameserver 8.8.8.8" > /data/data/com.termux/files/home/termux-ubuntu/ubuntu-fs/etc/resolv.conf
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 09 ] || [ $act = 09 ]
@@ -325,7 +327,7 @@ pip3 install mps_youtube
 pip3 install youtube_dl
 apt install mpv
 echo " Untuk menjalankannya ketik "mpsyt" tanpa tanda petik "
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 10 ] || [ $act = 10 ]
@@ -340,7 +342,7 @@ git clone https://github.com/blackvkng/viSQL.git
 cd ~/viSQL
 chmod 777 viSQL.py
 cd ~/
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 11 ] || [ $act = 11 ]
@@ -356,7 +358,7 @@ cd ~/weeman
 pip2 install beautifulsoup
 pip2 install bs4
 cd ~/
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 12 ] || [ $act = 12 ]
@@ -372,7 +374,7 @@ wget https://raw.githubusercontent.com/bytezcrew/wfdroid-termux/master/wfdinstal
 chmod 777 wfdinstall
 sh wfdinstall
 cd ~/
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 13 ] || [ $act = 13 ]
@@ -390,7 +392,7 @@ wget https://pastebin.com/raw/aqMBt2xA -O fbbrute.py
 wget http://override.waper.co/files/password.apk -O wordlist.txt
 chmod 777 fbbrute.py
 cd ~/
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 14 ] || [ $act = 14 ]
@@ -404,7 +406,7 @@ cd ~/ngrok
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
 unzip ngrok-stable-linux-arm.zip
 cd ~/
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 15 ] || [ $act = 15 ]
@@ -418,7 +420,7 @@ pkg install python
 pkg install git
 git clone https://github.com/cyweb/hammer
 cd ~/
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 16 ] || [ $act = 16 ]
@@ -434,7 +436,7 @@ cd routersploit
 pip install -r requirements.txt
 termux-fix-shebang rsf.py
 cd ~/
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 17 ] || [ $act = 17 ]
@@ -446,7 +448,7 @@ apt update && apt install -y wget
 apt install hydra
 wget http://scrapmaker.com/download/data/wordlists/dictionaries/rockyou.txt
 cd ~/
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 18 ] || [ $act = 18 ]
@@ -458,7 +460,7 @@ pkg update
 pkg upgrade
 git clone https://github.com/glides/Weevely
 cd ~/
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 19 ] || [ $act = 19 ]
@@ -470,7 +472,7 @@ apt update && apt upgrade
 apt install python2
 git clone https://github.com/sqlmapproject/sqlmap.git
 cd ~/
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 20 ] || [ $act = 20 ]
@@ -483,7 +485,7 @@ apt-get install python
 apt-get install git
 git clone https://github.com/maurosoria/dirsearch.git
 cd ~/
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 21 ] || [ $act = 21 ]
@@ -497,7 +499,7 @@ mkdir adfin
 cd ~/webdav
 wget https://pastebin.com/raw/32txZ6Qr -O adfin.php
 cd ~/
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 22 ] || [ $act = 22 ]
@@ -511,8 +513,8 @@ mkdir lokomed
 cd ~/lokomed
 wget https://pastebin.com/raw/sPpJRjCZ -O lokomedia.php
 cd ~/
-echo -e $red" Selesai Install Coy ... "
-echo -e $red" usage : php lokomedia.php a.txt "
+echo -e $yellow" Selesai Install Coy ... "
+echo -e $yellow" usage : php lokomedia.php a.txt "
 fi
 
 if [ $act = 23 ] || [ $act = 23 ]
@@ -526,7 +528,7 @@ mkdir elfinder
 cd ~/elfinder
 wget https://pastebin.com/raw/S7Y2V19h -O elfinder.php
 cd ~/
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 24 ] || [ $act = 24 ]
@@ -540,7 +542,7 @@ mkdir magento
 cd ~/magento
 wget https://pastebin.com/raw/PXkG73pG -O magento.php
 cd ~/
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 25 ] || [ $act = 25 ]
@@ -556,8 +558,8 @@ wget https://pastebin.com/raw/m79t1Zia -O scanner.py
 wget https://pastebin.com/raw/mgKxMWXh -O admins.1337
 wget https://pastebin.com/raw/EafKj98D -O files.1337
 cd ~/
-echo -e $red" Selesai Install Coy ... "
-echo -e $red" usage : python2 scanner.py site.com -m files "
+echo -e $yellow" Selesai Install Coy ... "
+echo -e $yellow" usage : python2 scanner.py site.com -m files "
 fi
 
 if [ $act = 26 ] || [ $act = 26 ]
@@ -571,7 +573,7 @@ mkdir bing
 cd ~/bing
 wget https://pastebin.com/raw/tjQY6Tsg -O dorker.php
 cd ~/
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 27 ] || [ $act = 27 ]
@@ -594,7 +596,7 @@ python2 katoolin.py
 Sisanya bisa mengikuti cara install di atas, Jika menemui masalah gpg error saat melakukan add repository install gnupg-curl dengan perintah pkg install gnupg-curl
 Untuk yg menggunakan termux dengan cpu arm64 (aarch64) tidak bisa menambahkan repositori kali linux karna kali linux tidak support aarch64, 
 jadi sebelum menginstall tools kali di termux wajib dengan android dengan arm32 jika arm64 gunakan gnuroot"
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 28 ] || [ $act = 28 ]
@@ -609,7 +611,7 @@ git clone https://github.com/sdrausty/termux-archlinux.git
 cd termux-archlinux 
 chmod +x setupTermuxArch.sh
 ./setupTermuxArch.sh
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 29 ] || [ $act = 29 ]
@@ -623,7 +625,7 @@ apt install wget
 git clone https://github.com/nmilosev/termux-fedora.git
 cd termux-fedora
 chmod +x termux-fedora.sh
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 30 ] || [ $act = 30 ]
@@ -635,7 +637,7 @@ apt update && apt upgrade
 apt install python2 && apt install git
 git clone https://github.com/UltimateHackers/Hash-Buster
 cd Hash-Buster
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 31 ] || [ $act = 31 ]
@@ -649,7 +651,7 @@ git clone https://github.com/st42/termux-sudo.git
 cd termux-sudo
 cat sudo > /data/data/com.termux/files/usr/bin/sudo
 chmod 700 /data/data/com.termux/files/usr/bin/sudo
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 32 ] || [ $act = 32 ]
@@ -659,7 +661,7 @@ echo -e $lightgreen" installing aircrack-ng "
 sleep 1
 apt-get update && apt-get upgrade
 apt-get install aircrack-ng
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 33 ] || [ $act = 33 ]
@@ -671,7 +673,7 @@ apt-get update && apt-get upgrade
 apt-get install git
 apt-get install perl
 git clone https://github.com/rezasp/joomscan.git
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 34 ] || [ $act = 34 ]
@@ -682,7 +684,7 @@ sleep 1
 apt-get update && apt-get upgrade
 apt-get install wget
 wget http://www.morningstarsecurity.com/downloads/bing-ip2hosts-0.4.tar.gz && tar -xzvf bing-ip2hosts-0.4.tar.gz && cp bing-ip2hosts-0.4/bing-ip2hosts /usr/local/bin/t
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 35 ] || [ $act = 35 ]
@@ -693,7 +695,7 @@ sleep 1
 apt-get update && apt-get upgrade
 apt-get install git
 git clone git://git.kali.org/packages/bluemaho.git
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 36 ] || [ $act = 36 ]
@@ -704,7 +706,7 @@ sleep 1
 apt-get update && apt-get upgrade
 apt-get install git
 git clone git://git.kali.org/packages/bluepot.git
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 37 ] || [ $act = 37 ]
@@ -715,7 +717,7 @@ sleep 1
 apt-get update && apt-get upgrade
 apt-get install git && apt-get install php
 git clone https://github.com/whackashoe/php-spam-mail-honeypot.git
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 38 ] || [ $act = 38 ]
@@ -733,7 +735,7 @@ cd bot
 unzip bot.zip
 chmod 777 bot.pl
 echo -e $red" Lokasi bot ? /bot/bot.pl"
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 39 ] || [ $act = 39 ]
@@ -746,7 +748,7 @@ apt-get install git && apt-get install perl
 git clone https://github.com/Moham3dRiahi/XAttacker
 cd XAttacker
 chmod 777 XAttacker.pl
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 40 ] || [ $act = 40 ]
@@ -764,7 +766,7 @@ echo -e $red" note !! "
 echo -e $red" usage php sendmail.php notification:mailer <email> <subject> <body>; "
 echo -e $red" or "
 echo -e $red" php sendmail.php --help "
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 41 ] || [ $act = 41 ]
@@ -777,7 +779,7 @@ apt-get install python
 apt-get install python-pip
 pip install request
 git clone https://github.com/atarantini/wpbf
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 42 ] || [ $act = 42 ]
@@ -789,7 +791,7 @@ apt-get update && apt-get upgrade
 sh -c "$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)"
 ~/.termux/colors.sh
 echo -e $red" ganti color ? ketik ~/.termux/colors.sh "
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 43 ] || [ $act = 43 ]
@@ -809,7 +811,7 @@ sleep 1
 cd instabot.py
 echo -e $red" ketik nano example.py "
 echo -e $red" masukan username dan password mu"
-echo -e $red" Selesai Coy ... "
+echo -e $yellow" Selesai Coy ... "
 fi
 
 
@@ -827,7 +829,7 @@ echo -e $red" Tunggu Bentar ... "
 echo -e $red" Tunggu Bentar ... "
 sleep 1
 cd fsociety
-echo -e $red" python fsociety.py "
+echo -e $yellow" python fsociety.py "
 fi
 
 
@@ -842,7 +844,7 @@ apt-get install git
 git clone https://github.com/Dionach/CMSmap.git
 sleep 1
 cd CMSmap
-echo -e $red" Usage: cmsmap.py -t <URL> "
+echo -e $yellow" Usage: cmsmap.py -t <URL> "
 fi
 
 if [ $act = 46 ] || [ $act = 46 ]
@@ -857,7 +859,7 @@ git clone https://github.com/m4ll0k/Infoga.git infoga
 sleep 1
 cd infoga
 pip install -r req
-echo -e $red" Usage: python infoga.py "
+echo -e $yellow" Usage: python infoga.py "
 fi
 
 
@@ -871,7 +873,7 @@ apt-get install wget
 apt-get install php
 wget https://pastebin.com/raw/LDvFvtUD -O com_fabrik.php
 sleep 1
-echo -e $red" Usage: php com_fabrik.php target.txt "
+echo -e $yellow" Usage: php com_fabrik.php target.txt "
 fi
 
 
@@ -885,7 +887,7 @@ apt-get install wget
 apt-get install php
 wget https://pastebin.com/raw/EAtSir5V -O com_foxcontact.php
 sleep 1
-echo -e $red" Usage: php com_foxcontact.php target.txt "
+echo -e $yellow" Usage: php com_foxcontact.php target.txt "
 fi
 
 if [ $act = 49 ] || [ $act = 49 ]
@@ -897,7 +899,7 @@ apt-get update && apt-get upgrade
 apt-get install git
 git clone https://github.com/JamesAndresCM/Brute_force_gmail
 sleep 1
-echo -e $red" Usage: python2.7 brute_force_gmail.py example@gmail.com PATH_TO_DICTIONARY "
+echo -e $yellow" Usage: python2.7 brute_force_gmail.py example@gmail.com PATH_TO_DICTIONARY "
 fi
 
 
@@ -910,7 +912,7 @@ apt-get update && apt-get upgrade
 apt-get install git
 git clone https://github.com/rand0m1ze/ezsploit
 sleep 1
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 51 ] || [ $act = 51 ]
@@ -924,7 +926,7 @@ apt-get install python
 pip install requests
 git clone https://github.com/p4kl0nc4t/Spammer-Grab/
 sleep 1
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 52 ] || [ $act = 52 ]
@@ -939,7 +941,7 @@ git clone https://github.com/mrcakil/spam
 cd spam
 unzip toko-pedia.zip
 sleep 1
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 53 ] || [ $act = 53 ]
@@ -953,7 +955,7 @@ git clone https://github.com/Screetsec/TheFatRat.git
 cd TheFatRat
 chmod +x setup.sh && ./setup.sh
 sleep 1
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 54 ] || [ $act = 54 ]
@@ -969,7 +971,7 @@ cd IPGeolocation
 chmod +x ipgeolocation.py
 pip install -r requirements.txt
 sleep 1
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 55 ] || [ $act = 55 ]
@@ -984,7 +986,7 @@ git clone https://github.com/shadowbot82/OSIF.git
 cd OSIF
 pip2 install -r requirements.txt
 sleep 1
-echo -e $red" Selesai Instal Coy ... "
+echo -e $yellow" Selesai Instal Coy ... "
 fi
 
 if [ $act = 56 ] || [ $act = 56 ]
@@ -998,7 +1000,7 @@ apt-get install nodejs
 git clone https://github.com/shadowbot82/instatools.git
 unzip node_modules.zip
 sleep 1
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 57 ] || [ $act = 57 ]
@@ -1011,7 +1013,7 @@ apt-get insatll python2
 apt-get insatl git 
 git clone git clone https://github.com/shadowbot82/Scan-Admin-Login.git
 sleep 1
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 58 ] || [ $act = 58 ]
@@ -1024,7 +1026,7 @@ apt-get insatll nano
 apt-get insatll git
 git clone https://github.com/shadowbot82/cashtree.git
 sleep 1
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 59 ] || [ $act = 59 ]
@@ -1038,7 +1040,7 @@ apt-get install ruby
 apt-get install lolcat
 git clone https://github.com/shadowbot82/gpclaim.git
 sleep 1
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 60 ] || [ $act = 60 ]
@@ -1051,7 +1053,7 @@ apt-get install php
 apt-get install git 
 git clone https://github.com/shadowbot82/kubik-bot.git
 sleep 1
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 61 ] || [ $act = 61 ]
@@ -1064,13 +1066,13 @@ apt-get install php
 apt-get install git 
 git clone https://github.com/shadowbot82/Spam-wa.git
 sleep 1
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 62 ] || [ $act = 62 ]
 then
 clear
-echo -e $lightgreen" install Websploit "
+echo -e $lightgreen" installing Websploit "
 sleep 1
 apt-get update
 apt-get upgrade
@@ -1079,13 +1081,13 @@ apt-get install python2
 apt-get install git
 git clone https://github.com/shadowbot82/Websploit.git
 sleep 1
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 63 ] || [ $act = 63 ]
 then
 clear
-echo -e $lightgreen" install mbf "
+echo -e $lightgreen" installing mbf "
 sleep 1
 apt-get upgrade
 apt-get install python 
@@ -1093,7 +1095,22 @@ apt-get install python2
 apt-get install git 
 git clone https://github.com/shadowbot82/mbf.git
 sleep 1
-echo -e $red" Selesai Install Coy ... "
+echo -e $yellow" Selesai Install Coy ... "
+fi
+
+if
+then
+clear
+echo -e $lightgreen" installing SCANNER-INURLBR "
+sleep 1
+pkg install git
+pkg install php
+pkg install curl
+git clone https://github.com/googleinurl/SCANNER-INURLBR.git
+cd SCANNER-INURLBR
+chmod +x inurlbr.php
+sleep 1
+echo -e $yellow" Selesai Install Coy ... "
 fi
 
 if [ $act = 00 ] || [ $act = 00 ]
