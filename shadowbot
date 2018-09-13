@@ -55,7 +55,7 @@ echo -e $white"     =================================================="
 
 echo ""
 echo -e $yellow" [<]==============================[>]"
-echo -e $red"   Silahkan Pilih Tools Yang Lu Suka Coy ..."
+echo -e $red"  Silahkan Pilih Tools Yang Lu Suka Coy ..."
 echo -e $yellow" [<]==============================[>]"
 
 
@@ -188,7 +188,7 @@ echo -e $red" 63) mbf"
 echo -e $lightgreen"[+]=================================[+]"
 echo -e ""
 echo -e $yellow" [<]==============================[>]"
-echo -e $red" 00)Keluar Njengg... "
+echo -e $red"  00) Keluar Njengg... "
 echo -e $yellow" [<]==============================[>]"
 echo -e $lightgreen""
 read -p "[shadow@Tools]> " act;
