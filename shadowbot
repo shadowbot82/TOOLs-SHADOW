@@ -46,17 +46,17 @@ echo -e $red"      # Team     : INDEPENDENT TEAM      #"
 echo -e $white"      # Contact  : @shadowbot82          #"
 echo -e $white"      # Youtube  : SHADOW BOT CHANNEL    #"
 
-echo -e $red"      # Thanks To : -Rabbit Team Cyber   #"
-echo -e $white"                    -Tahu Bulat Com      #"
+echo -e $red"      # Thanks To : -Hidden Ghost Team   #"
+echo -e $white"                  -Indonesia Cyber Army   #"
 echo -e $red"                   version 1.0"
 
 echo -e $white"     =================================================="
 
 
 echo ""
-echo -e $yellow"   [<]==============================[>]"
-echo -e $red"       Silahkan Pilih Tools Yang Lu Suka Coy ..."
-echo -e $yellow"   [<]==============================[>]"
+echo -e $yellow" [<]==============================[>]"
+echo -e $red"   Silahkan Pilih Tools Yang Lu Suka Coy ..."
+echo -e $yellow" [<]==============================[>]"
 
 
 echo -e $lightgreen"[+]=================================[+]"
@@ -187,9 +187,9 @@ echo -e $white"[+]=================================[+]"
 echo -e $red" 63) mbf"
 echo -e $lightgreen"[+]=================================[+]"
 echo -e ""
-echo -e $yellow"   [<]==============================[>]"
-echo -e $red" 00)   Keluar Njengg... "
-echo -e $yellow"   [<]==============================[>]"
+echo -e $yellow" [<]==============================[>]"
+echo -e $red" 00)Keluar Njengg... "
+echo -e $yellow" [<]==============================[>]"
 echo -e $lightgreen""
 read -p "[shadow@Tools]> " act;
 
