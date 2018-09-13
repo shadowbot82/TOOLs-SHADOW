@@ -1098,14 +1098,14 @@ sleep 1
 echo -e $yellow" Selesai Install Coy ... "
 fi
 
-if [ $act = 64] || [ $act = 64]
+if [ $act = 64 ] || [ $act = 64 ]
 then
 clear
 echo -e $lightgreen" installing SCANNER-INURLBR "
 sleep 1
-pkg install git
-pkg install php
-pkg install curl
+apt-get install git
+apt-get install php
+apt-get install curl
 git clone https://github.com/googleinurl/SCANNER-INURLBR.git
 cd SCANNER-INURLBR
 chmod +x inurlbr.php
