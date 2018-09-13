@@ -1098,7 +1098,7 @@ sleep 1
 echo -e $yellow" Selesai Install Coy ... "
 fi
 
-if
+if [ $act = 64] || [ $act = 64]
 then
 clear
 echo -e $lightgreen" installing SCANNER-INURLBR "
