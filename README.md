@@ -8,6 +8,6 @@
 # Youtube : SHADOW BOT CHANNEL
 # contact : @shadowbot82
 # Thanks to : - Allah Swt.
-#             - Rabbit Cyber Team
-#             - Tahu Bulat Com
+#             - Hidden Ghost Team
+#             - Indonesia Cyber Army
 
