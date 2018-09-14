@@ -1117,7 +1117,7 @@ sleep 1
 echo -e $yellow" Selamat Udah Berhasil Ke Install ... "
 fi
 
-if [ $act = 64 ] || [ $act = 64 ]
+if [ $act = 65 ] || [ $act = 64 ]
 then
 echo -e $yellow" Tunggu Bentar Coy... "
 sleep 1
