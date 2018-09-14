@@ -1134,11 +1134,11 @@ fi
 
 if [ $act = 00 ] || [ $act = 00 ]
 then
-echo -e $red" Salam Penutup "
+echo -e $red" Salam Penutup Buat Lu.. "
 sleep 1
-echo -e $red" Dear Jones Karat :)"
+echo -e $red" Kalo Lu Selalu Di Bully Jangan Buktikan "
 sleep 1
-echo -e $red" Jangan nyabun mulu coli sana wkwkwkkk ... "
+echo -e $red" Dengan Kekerasan Buktikanlah Dengan Prestasi ... "
 sleep 1
 echo -e $yellow" Tunggu bentar coy .... "
 sleep 1
@@ -1146,11 +1146,11 @@ echo -e $yellow" Contact : @shadowbot82 "
 sleep 1
 echo -e $yellow" Youtube : SHADOW BOT CHANNEL "
 sleep 1
-echo -e $lightgreen" Bantu Sampe 10k Subs eaax ..."
+echo -e $lightgreen" Bantu Subscribe coy ..."
 sleep 1
 echo -e $lightgreen" Sampai jumpa di lain waktu :) "
 sleep 1
-echo -e $lightgreen" Thank You :) "
+echo -e $lightgreen" Thank You ^_^ "
 sleep 1
 exit
 fi
