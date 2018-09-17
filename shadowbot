@@ -51,8 +51,11 @@ echo -e $white"                  -Indonesia Cyber Army   #"
 echo -e $red"                        version 1.0"
 
 echo -e $white"     =================================================="
-
-
+echo ""
+echo -e $red" ----------------------+++++----------------------"
+echo -e $lightgreen" Kalo Kurang Jelas Bisa Liat Vidio Di Bawah Ini "
+echo -e $lightgreen" https://youtu.be/v-R5rS-SBDc "
+echo -e $red" ----------------------+++++----------------------
 echo ""
 echo -e $yellow" [<]==============================[>]"
 echo -e $red"  Silahkan Pilih Tools Yang Lu Suka Coy ..."
