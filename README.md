@@ -1,13 +1,3 @@
-# INI CARA INSTALLNYA COY ...
-# git clone https://github.com/shadowbot82/TOOLs-SHADOW.git
-# cd TOOLs-SHADOW
-# chmod 777 shadowbot
-# ./shadowbot 
+# Cara Install Liat Di Sini
 
-# Coded by shadowbot
-# Youtube : SHADOW BOT CHANNEL
-# contact : @shadowbot82
-# Thanks to : - Allah Swt.
-#             - Hidden Ghost Team
-#             - Indonesia Cyber Army
-
+# https://youtu.be/v-R5rS-SBDc
